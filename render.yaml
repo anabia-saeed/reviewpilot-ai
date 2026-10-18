@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: reviewpilot-api
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false          # paste in Render dashboard
+      - key: JWT_SECRET
+        generateValue: true
+      - key: CORS_ORIGINS
+        value: "*"           # change to https://your-wordpress-site.com
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: DEMO_OWNER_PASSWORD
+        sync: false

@@ -1,0 +1,8 @@
+Restaurant: Karachi Bites
+Contact: phone 0300-1234567, email help@karachibites.example
+
+Late delivery: If an order arrives more than 60 minutes late, the customer gets a 20% discount on their next order.
+Wrong order: We replace the wrong item or refund it within 24 hours.
+Cold or bad food: We replace the dish or refund it. Please share your order number.
+Hygiene complaints: Our manager contacts the customer within 2 hours. Call 0300-1234567.
+Refunds: Refunds go back to the original payment method within 5-7 working days.
